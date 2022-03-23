@@ -1,5 +1,5 @@
 # [rsschool-cv](https://github.com/ols62/rsschool-cv/blob/gh-pages/cv.md)
-# ![image](image.png "Oleg Slizhikov")  Oleg Slizhikov                                    
+# ![image](images/image.png "Oleg Slizhikov")  Oleg Slizhikov                                    
 ## Contact information:
 * **Location:** Vitebsk, Belarus
 * **Email:** oleg.sl62@mail.ru
