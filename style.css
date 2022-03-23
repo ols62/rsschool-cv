@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana;
+  font-size: 100%;
+  background-color: rgb(227, 228, 230);
+}
+.wrapper {
+  width: 100%;
+  padding: 1vh 15vw 5vh 15vw;
+}
+
+/*div {
+  border-style: dotted;
+}*/
+
+.main {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  box-shadow: 0px 20px 50px 15px rgba(0, 0, 0, 0.726);
+}
+
+.left {
+  float: left;
+  flex: 35%;
+  text-align: left;
+  background-color: rgb(15, 72, 127);
+  color: aliceblue;
+}
+
+.right {
+  float: left;
+  flex: 65%;
+  padding-left: 6vw;
+  text-align: left;
+  background-color: white;
+  color: rgb(15, 72, 127);
+}
+
+.text {
+  color: rgb(136, 136, 136);
+  font-size: 1.2rem;
+}
+
+.titleR, .titleL {
+  overflow: hidden;
+  text-align: left;
+}
+
+.titleR::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(15, 72, 127);
+  position: relative;
+  margin-right: -100%;
+  right: -14px;
+}
+.titleL::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    margin-right: -100%;
+    right: -14px;
+  }
+@media only screen and (max-width: 900px) {
+  .main {
+    flex-direction: column;
+    box-shadow: none;
+    width: 100%;
+  }
+  .wrapper {
+    padding: 0;
+  }
+}
