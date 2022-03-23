@@ -12,9 +12,6 @@ body {
   padding: 1vh 15vw 5vh 15vw;
 }
 
-/*div {
-  border-style: dotted;
-}*/
 
 .main {
   display: flex;
@@ -40,9 +37,13 @@ body {
   color: rgb(15, 72, 127);
 }
 
-.text {
+.mlist li{
+  color: rgb(15, 72, 127);
+}
+
+.text, .mlist span {
   color: rgb(136, 136, 136);
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 .titleR, .titleL {
